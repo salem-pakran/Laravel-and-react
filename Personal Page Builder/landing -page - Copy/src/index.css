@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-edit,
+.content-header-edit,
+.header-avatar-edit,
+.button-add,
+.project-model-edit,
+.service-edit,
+.exp-model-edit,
+.project-mind-modal {
+  opacity: 0;
+}
+
+.link:hover .link-edit,
+.list-links:hover .button-add,
+.content-header:hover .content-header-edit,
+.header-avatar:hover .header-avatar-edit,
+.project:hover .project-model-edit,
+.project:hover .button-add,
+.service:hover .service-edit,
+.service-add:hover .button-add,
+.exp:hover .exp-model-edit,
+.exp-container:hover .button-add,
+.project-mind:hover .project-mind-modal {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  color: azure;
+}
